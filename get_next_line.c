@@ -6,7 +6,7 @@
 /*   By: blatifat <blatifat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 03:51:41 by blatifat          #+#    #+#             */
-/*   Updated: 2023/12/04 18:54:02 by blatifat         ###   ########.fr       */
+/*   Updated: 2023/12/05 21:36:45 by blatifat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strchr(const char *str, int c)
 {
-	while (*str != (char)c)
+	while (*str != (char)c) 
 	{
 		if (*str == '\0')
 			return (NULL);
